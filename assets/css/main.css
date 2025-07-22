@@ -4687,3 +4687,31 @@ input, select, textarea {
 		}
 
 	}
+	/* === Gloria's Custom Portfolio Styles === */
+
+/* Uniform image size and crop */
+.image.fit img {
+	height: 220px;
+	object-fit: cover;
+	border-radius: 8px;
+  }
+  
+  /* Consistent height for each project card */
+  .posts article.project-card {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	min-height: 550px;
+  }
+  
+  /* Align "View Project" buttons neatly */
+  .project-footer {
+	margin-top: auto;
+	display: flex;
+	justify-content: center;
+  }
+  
+  .project-footer .button {
+	margin-top: 1rem;
+  }
+  
