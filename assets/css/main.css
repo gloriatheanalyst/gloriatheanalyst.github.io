@@ -4691,7 +4691,10 @@ input, select, textarea {
 
 /* Uniform image size and crop */
 .image.fit img {
+<<<<<<< HEAD
 	width: 100%;
+=======
+>>>>>>> 6a82e6606d9d2bc6e82d7a1c344c40b3af72e0f5
 	height: 220px;
 	object-fit: cover;
 	border-radius: 8px;
